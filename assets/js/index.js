@@ -6,7 +6,7 @@ var app = {
         document.addEventListener('deviceready', this.deviceready, false);
     },
     deviceready: function() {
-        document.querySelector('#initial').className = "hide";
+        document.getElementById("initial").setAttribute("class", "hide");
         // note that this is an event handler so the scope is that of the event
         // so we need to call app.report(), and not this.report()
         app.check();
@@ -14,19 +14,19 @@ var app = {
     check: function() {
         console.log("connection check");
         console.log(navigator.network.connection.type);
-        var failElem = document.querySelector('#fail');
-        var successElem = document.querySelector('#win');
+        var failElem = document.getElementById('fail');
+        var successElem = document.getElementById('win');
 
         console.log(navigator.network.connection.type);
         
         var networkState = navigator.network.connection.type;
         if (networkState == Connection.NONE) {
-            failElem.className = "status";
-            successElem.className = "hide";
+            failElem.setAttribute("class", "status");
+            successElem.setAttribute("class", "hide");
         }
         else {
-            failElem.className = "hide";
-            successElem.className = "status";
+        	failElem.setAttribute("class", "hide");
+            successElem.setAttribute("class", "status");
             console.log('redirecting...');
             //window.location.href = "http://m.tccd.edu/";
         }
