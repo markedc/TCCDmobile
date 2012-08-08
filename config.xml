@@ -44,4 +44,7 @@
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
+    
+    <access origin="http://m.tccd.edu" browserOnly="false" />
+    <access origin="*" browserOnly="true" />
 </widget>
