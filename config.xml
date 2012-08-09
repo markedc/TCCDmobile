@@ -2,7 +2,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "edu.tccd.m"
-        version   = "0.1.4.1">
+        version   = "0.1.9.0">
     <name>TCCD Mobile</name>
 
     <description>
@@ -47,7 +47,7 @@
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
     
-    <access origin="localhost" browserOnly="false" />
+    
     <access origin="m.tccd.edu" browserOnly="false" />
     <access origin="library.tccd.edu" browserOnly="true" />
     <access origin="my.tccd.edu" browserOnly="true" />
