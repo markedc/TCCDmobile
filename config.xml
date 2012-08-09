@@ -47,6 +47,6 @@
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
     
+    <access origin="*" browserOnly="true" />
     <access origin="http://m.tccd.edu" browserOnly="false" />
-    <access origin="http://library.tccd.edu" browserOnly="true" />
 </widget>
