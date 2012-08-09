@@ -6,7 +6,7 @@ var app = {
         document.addEventListener('deviceready', this.deviceready, false);
     },
     deviceready: function() {
-        document.getElementById("initial").setAttribute("class", "hide");
+        document.getElementById("gap").setAttribute("class", "hide");
         // note that this is an event handler so the scope is that of the event
         // so we need to call app.report(), and not this.report()
         app.check();

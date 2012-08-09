@@ -4,8 +4,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name = "format-detection" content = "telephone=no"/>
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width;" />
-        <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
-        <script src="phonegap.js" type="text/javascript" charset="utf-8"></script>
+        <link rel="stylesheet" type="text/css" href="index.css" />
         <title>TCCD mobile</title>
     </head>
     <body>
@@ -15,6 +14,13 @@
                 <p id="initial" class="status">
                     You do not have javascript enabled... <a href="http://m.tccd.edu">Continue to the TCC mobile website.</a>
                 </p>
+                <p id="gap" class="hide">
+                    Phonegap Error. <a href="http://m.tccd.edu">Continue to the TCC mobile website.</a>
+                </p>
+                <script type="text/javascript">
+                    document.getElementById('gap').setAttribute('class', 'status');
+                    document.getElementById('initial').setAttribute('class', 'hide');
+               </script>
                 <p id="fail" class="hide">
                     You do not currently have a network connection which is required to use this app.
                     <a href='#' onclick='app.check();'>Check again</a> or <a href="http://m.tccd.edu">continue anyway</a>.
@@ -22,11 +28,12 @@
                 <p id="win" class="hide">
                     Loading...
                 </p>
-                <a href="http://wa.tccd.edu">a</a>
             </div>
         </div>
-        <script type="text/javascript" src="cordova-2.0.0.js"></script>
-        <script type="text/javascript" src="assets/js/index.js"></script>
+        <!--<script type="text/javascript" src="cordova-2.0.0.js"></script> I may need to get rid of the phonegap.js file for build!-->
+        <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+
         <script type="text/javascript">
             app.initialize();
         </script>
