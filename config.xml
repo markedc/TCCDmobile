@@ -2,7 +2,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "edu.tccd.m"
-        version   = "0.9.1">
+        version   = "0.1.4.1">
     <name>TCCD Mobile</name>
 
     <description>
@@ -46,13 +46,13 @@
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
-    <preference name="stay-in-webview" value="true" />
     
-    <access origin="http://m.tccd.edu" browserOnly="false" />
-    <access origin="http://library.tccd.edu" browserOnly="true" />
-    <access origin="http://my.tccd.edu" browserOnly="true" />
-    <access origin="http://www.tccd.edu" browserOnly="true" />
-    <access origin="http://tccd.emsicareercoach.com" browserOnly="true" />
-    <access origin="http://calendar.tccd.edu" browserOnly="true" />
+    <access origin="localhost" browserOnly="false" />
+    <access origin="m.tccd.edu" browserOnly="false" />
+    <access origin="library.tccd.edu" browserOnly="true" />
+    <access origin="my.tccd.edu" browserOnly="true" />
+    <access origin="www.tccd.edu" browserOnly="true" />
+    <access origin="tccd.emsicareercoach.com" browserOnly="true" />
+    <access origin="calendar.tccd.edu" browserOnly="true" />
     
 </widget>
