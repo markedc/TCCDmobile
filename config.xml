@@ -39,6 +39,8 @@
     <gap:splash src="res/screen/windows_phone_portrait.jpg"      width="480"  height="800"  gap:platform="winphone" />
 
     <feature name="http://api.phonegap.com/1.0/device" />
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
 
     <preference name="phonegap-version" value="1.9.0" />
     <preference name="orientation"      value="default" />
@@ -46,5 +48,5 @@
     <preference name="fullscreen"       value="false" />
     
     <access origin="http://m.tccd.edu" browserOnly="false" />
-    <access origin="*" browserOnly="true" />
+    <access origin="http://library.tccd.edu" browserOnly="true" />
 </widget>
