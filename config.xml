@@ -6,7 +6,7 @@
     <name>Tarrant County College (TCC) Mobile</name>
 
     <description>
-        Tarrant County College (TCC) Mobile
+        Tarrant County College (TCC) Mobile App allows students to access registration information as well as course and program listings, academic calendar, library databases, Career Coach and the myTCC portal.
     </description>
 
     <author href="http://www.tccd.edu" email="web.communications@tccd.edu">
@@ -41,6 +41,8 @@
     <feature name="http://api.phonegap.com/1.0/device" />
     <feature name="http://api.phonegap.com/1.0/geolocation"/>
     <feature name="http://api.phonegap.com/1.0/network"/>
+    
+    <gap:plugin name="ChildBrowser" version="~3" />
 
     <preference name="phonegap-version" value="1.9.0" />
     <preference name="orientation"      value="default" />
