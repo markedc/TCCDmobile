@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "edu.tccd.m"
         version   = "0.1.9.0">
-    <name>Tarrant County College (TCC) Mobile</name>
+    <name>Tarrant County College Mobile</name>
 
     <description>
         Tarrant County College (TCC) Mobile App allows students to access registration information as well as course and program listings, academic calendar, library databases, Career Coach and the myTCC portal.
