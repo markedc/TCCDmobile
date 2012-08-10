@@ -3,14 +3,14 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "edu.tccd.m"
         version   = "0.1.9.0">
-    <name>TCCD Mobile</name>
+    <name>Tarrant County College (TCC) Mobile</name>
 
     <description>
-        TCCD Mobile app
+        Tarrant County College (TCC) Mobile
     </description>
 
     <author href="http://www.tccd.edu" email="web.communications@tccd.edu">
-        Tarrant County College
+        Tarrant County College (TCC)
     </author>
 
     <icon src="res/icon/cordova_512.png"        width="512" height="512" />
