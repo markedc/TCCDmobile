@@ -28,7 +28,7 @@ var app = {
         	failElem.setAttribute("class", "hide");
             successElem.setAttribute("class", "status");
             console.log('redirecting...');
-            window.location.href = "http://m.tccd.edu/";
+            window.location.href = "http://vod.tccd.edu/cb";
         }
     }
 };
