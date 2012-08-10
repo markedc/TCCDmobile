@@ -47,7 +47,7 @@
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
     
-    
+    <access origin="vod.tccd.edu" browserOnly="false" />
     <access origin="m.tccd.edu" browserOnly="false" />
     <access origin="library.tccd.edu" browserOnly="true" />
     <access origin="my.tccd.edu" browserOnly="true" />
