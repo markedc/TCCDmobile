@@ -124,20 +124,20 @@
         	        console.log("connection check");
         	        console.log(navigator.network.connection.type);
         	        var failElem = document.getElementById('fail');
-        	        var successElem = document.getElementById('win');
+        	        var winElem = document.getElementById('win');
 
         	        console.log(navigator.network.connection.type);
         	        
         	        var networkState = navigator.network.connection.type;
         	        if (networkState == Connection.NONE) {
         	            failElem.setAttribute("class", "status");
-        	            successElem.setAttribute("class", "hide");
+        	            winElem.setAttribute("class", "hide");
         	        }
         	        else {
         	        	failElem.setAttribute("class", "hide");
-        	            successElem.setAttribute("class", "status");
+        	        	winElem.setAttribute("class", "status");
         	            console.log('redirecting...');
-        	            window.location.href = "http://vod.tccd.edu/cb";
+        	            window.location.href = "http://m.tccd.edu/";
         	        }
         	    }
         	};
