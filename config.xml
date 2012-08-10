@@ -50,6 +50,7 @@
     <preference name="fullscreen"       value="false" />
     <preference name="stay-in-webview" value="true" />
     
+    <access origin="*" browserOnly="true" /> <!-- Where to put this in the list? Browser only true or false? -->
     <access origin="m.tccd.edu" browserOnly="false" />
     <access origin="library.tccd.edu" browserOnly="true" />
     <access origin="my.tccd.edu" browserOnly="true" />
