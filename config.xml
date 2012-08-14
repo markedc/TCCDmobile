@@ -15,8 +15,8 @@
 
     
     <icon src="icon.png" />
-    <icon src="res/icon/cordova_512.png"        width="512" height="512" />
-    <icon src="res/icon/cordova_android_96.png" width="96"  height="96"  gap:platform="android" />
+    <icon src="res/icon/tcc_512.png"        width="512" height="512" />
+    <icon src="res/icon/tcc_android_96.png" width="96"  height="96"  gap:platform="android" />
     <icon src="res/icon/cordova_bb_80.png"      width="80"  height="80"  gap:platform="blackberry" />
     <icon src="res/icon/cordova_ios_144.png"    width="144" height="144" gap:platform="ios" />
     
