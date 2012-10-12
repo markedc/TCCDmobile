@@ -2,7 +2,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "edu.tccd.m"
-        version   = "0.0.9">
+        version   = "0.1.0">
     <name>Tarrant County College Mobile</name>
 
     <description>
@@ -26,16 +26,15 @@
     <feature name="http://api.phonegap.com/1.0/geolocation"/>
     <feature name="http://api.phonegap.com/1.0/network"/>
 
-    <preference name="phonegap-version" value="2.0.0" />
+    <preference name="phonegap-version" value="2.1.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
-    
+
     <access origin="m.tccd.edu" browserOnly="false" />
     <access origin="library.tccd.edu" browserOnly="true" />
     <access origin="my.tccd.edu" browserOnly="true" />
     <access origin="www.tccd.edu" browserOnly="true" />
     <access origin="tccd.emsicareercoach.com" browserOnly="true" />
     <access origin="calendar.tccd.edu" browserOnly="true" />
-    
 </widget>
