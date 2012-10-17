@@ -30,8 +30,10 @@
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
+    <preference name="stay-in-webview" value="true" />
 
     <access origin="m.tccd.edu" browserOnly="false" />
+    
     <access origin="library.tccd.edu" browserOnly="true" />
     <access origin="my.tccd.edu" browserOnly="true" />
     <access origin="www.tccd.edu" browserOnly="true" />
