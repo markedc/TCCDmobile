@@ -31,6 +31,8 @@
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
     <preference name="stay-in-webview" value="true" />
+    
+    <gap:plugin name="ChildBrowser" /> 
 
     <access origin="m.tccd.edu" browserOnly="false" />
     
