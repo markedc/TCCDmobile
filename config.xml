@@ -2,7 +2,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "edu.tccd.m"
-        version   = "0.9.1">
+        version   = "0.9.2">
     <name>Tarrant County College Mobile</name>
 
     <description>
@@ -41,4 +41,11 @@
     <access origin="www.tccd.edu" browserOnly="true" />
     <access origin="tccd.emsicareercoach.com" browserOnly="true" />
     <access origin="calendar.tccd.edu" browserOnly="true" />
+    
+    <access origin="code.jquery.com" browserOnly="false" />
+    <access origin="static.getclicky.com" browserOnly="false" />
+    <access origin="in.getclicky.com" browserOnly="false" />
+    <access origin="www.google-analytics.com" browserOnly="false" />
+    <access origin="www.omniupdate.com" browserOnly="false" />
+    
 </widget>
